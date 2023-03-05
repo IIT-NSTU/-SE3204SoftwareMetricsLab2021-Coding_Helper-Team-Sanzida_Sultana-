@@ -1,0 +1,142 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+Coding_Helper,code_clone,BoxAndWhiskerChart,getInputData,8,2,1,26,0,,
+Coding_Helper,code_clone,BoxAndWhiskerChart,display,28,2,0,37,0,,
+Coding_Helper,code_clone,BoxAndWhiskerChart,getPreferredSize,3,1,0,67,0,,
+Coding_Helper,code_clone,BoxAndWhiskerChart,BoxWhisker,3,1,0,77,0,,
+Coding_Helper,code_clone,CloneCheck,pathGenerate,7,1,1,20,0,console.Command,console.Command
+Coding_Helper,code_clone,CloneCheck,getFileListforProject1,4,1,1,29,0,code_clone.CloneCheck,code_clone.CloneCheck; IO.ProjectReader
+Coding_Helper,code_clone,CloneCheck,getFileListforProject2,4,1,1,35,0,code_clone.CloneCheck,code_clone.CloneCheck; IO.ProjectReader
+Coding_Helper,code_clone,CloneCheck,Code_clone,42,5,2,73,0,code_clone.CloneCheck,code_clone.CloneCheck; IO.ProjectReader; code_clone.PreProcessing; code_clone.TfIdfCalculate; code_clone.CosineSimilarity; code_clone.BoxAndWhiskerChart
+Coding_Helper,code_clone,CosineSimilarity,getCosinesimilarity,18,3,0,12,0,code_clone.CosineSimilarity,code_clone.CosineSimilarity
+Coding_Helper,code_clone,CosineSimilarity,cosineSimilarity,18,3,2,36,0,,
+Coding_Helper,code_clone,getTfIdf,getTf,10,3,2,5,0,,
+Coding_Helper,code_clone,getTfIdf,getIdf,15,4,2,17,0,,
+Coding_Helper,code_clone,Porter_stemmer,stemWord,13,2,1,8,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,stemStep1a,15,5,1,22,0,,
+Coding_Helper,code_clone,Porter_stemmer,stemStep1b,26,7,1,42,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,step1b2,25,6,1,72,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,stemStep1c,8,3,1,107,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,stemStep2,14,4,1,116,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,stemStep3,14,4,1,177,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,stemStep4,22,6,1,211,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,stemStep5a,14,4,1,255,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,stemStep5b,8,2,1,272,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,getLastDoubleConsonant,9,3,1,282,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,isStarO,9,3,1,294,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,getLetterTypes,12,3,1,308,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,Porter_stemmer,getM,5,3,1,321,0,,
+Coding_Helper,code_clone,Porter_stemmer,getLetterType,10,8,2,327,0,code_clone.Porter_stemmer,code_clone.Porter_stemmer
+Coding_Helper,code_clone,PreProcessing,ProcessFile,15,2,3,13,0,code_clone.PreProcessing,code_clone.PreProcessing; code_clone.Porter_stemmer; IO.Filewriter
+Coding_Helper,code_clone,PreProcessing,removePunctuation,4,1,1,33,0,,
+Coding_Helper,code_clone,PreProcessing,removeSpace,5,1,1,43,0,,
+Coding_Helper,code_clone,PreProcessing,removeKeyword,19,4,1,50,0,,
+Coding_Helper,code_clone,TfIdfCalculate,fileRead,26,6,1,23,0,,
+Coding_Helper,code_clone,TfIdfCalculate,getUniqueWordProject1,8,3,1,57,0,code_clone.TfIdfCalculate,code_clone.TfIdfCalculate
+Coding_Helper,code_clone,TfIdfCalculate,getUniqueWordProject2,8,3,1,68,0,code_clone.TfIdfCalculate,code_clone.TfIdfCalculate
+Coding_Helper,code_clone,TfIdfCalculate,IdfCal,9,2,0,80,0,code_clone.getTfIdf,code_clone.getTfIdf
+Coding_Helper,code_clone,TfIdfCalculate,tfIdfVectorProject1,23,4,0,94,0,code_clone.getTfIdf,code_clone.getTfIdf
+Coding_Helper,code_clone,TfIdfCalculate,tfIdfVectorProject2,23,4,0,123,0,code_clone.getTfIdf,code_clone.getTfIdf
+Coding_Helper,console,Command,command,95,24,0,34,0,console.Command,console.Command; huffman.mainEncode; huffman.mainDecode
+Coding_Helper,console,Command,getcurrentPath,10,2,0,139,0,,
+Coding_Helper,console,Command,getMethod,22,3,1,153,0,console.Command,console.Command; metrices.MethodCount
+Coding_Helper,console,Command,LineCode,19,2,1,179,0,console.Command,console.Command; metrices.LineOfCode
+Coding_Helper,console,Command,Input,5,1,0,199,0,,
+Coding_Helper,console,Command,getTotalClass,21,3,1,206,0,console.Command,console.Command; metrices.FileCount
+Coding_Helper,console,Command,average_Line_of_Project,21,3,1,227,0,console.Command,console.Command; metrices.Average_LOC
+Coding_Helper,console,Command,Search,27,4,1,249,0,console.Command,console.Command
+Coding_Helper,console,Command,SearchResult,5,1,3,292,0,searching.Search,searching.Search
+Coding_Helper,console,Command,pathGenerate,7,2,1,299,0,,
+Coding_Helper,console,Command,projectPath,31,4,0,310,0,console.Command,console.Command; code_clone.CloneCheck
+Coding_Helper,console,Command,projectExist,19,2,1,354,0,console.Command,console.Command
+Coding_Helper,console,Command,backDirectory,16,3,1,378,0,,
+Coding_Helper,console,Command,forwardDirectory,13,2,1,395,0,console.Command,console.Command
+Coding_Helper,console,Command,checkFileExist,23,3,1,413,0,console.Command,console.Command
+Coding_Helper,console,Command,setDirectory,5,1,1,438,0,,
+Coding_Helper,console,Command,listDirectory,25,4,1,446,0,,
+Coding_Helper,console,Command,main,4,1,1,470,0,console.Command,console.Command
+Coding_Helper,huffman,Compress,Compress,4,1,2,13,0,,
+Coding_Helper,huffman,Compress,compressFile,8,1,0,19,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,CompressedFileWriteHelper,CompressedFileWriteHelper,5,1,2,14,0,huffman.CompressedFileWriteHelper,huffman.CompressedFileWriteHelper
+Coding_Helper,huffman,CompressedFileWriteHelper,initMap,5,2,1,22,0,,
+Coding_Helper,huffman,CompressedFileWriteHelper,writeBeginningOfFile,9,2,1,29,0,huffman.Huffman,huffman.Huffman; huffman.CompressedFileWriteHelper
+Coding_Helper,huffman,CompressedFileWriteHelper,writeEndOfFile,8,2,0,39,0,huffman.Huffman,huffman.Huffman; huffman.CompressedFileWriteHelper
+Coding_Helper,huffman,CompressedFileWriteHelper,writeToFile,12,2,0,48,0,,
+Coding_Helper,huffman,CompressedFileWriteHelper,doWork,4,1,1,61,0,huffman.CompressedFileWriteHelper,huffman.CompressedFileWriteHelper
+Coding_Helper,huffman,Decompress,Decompress,4,1,2,12,0,,
+Coding_Helper,huffman,Decompress,decompressFile,4,1,0,18,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Decompress,convertTuplesToLookupMap,7,2,1,26,0,,
+Coding_Helper,huffman,Decompress,convertMapToTuples,11,3,1,35,0,,
+Coding_Helper,huffman,DecompressedFileWriteHelper,DecompressedFileWriteHelper,9,1,1,24,0,,
+Coding_Helper,huffman,DecompressedFileWriteHelper,writeToFile,8,1,0,35,0,,
+Coding_Helper,huffman,DecompressedFileWriteHelper,handleReadDictionary,20,3,1,44,0,huffman.Decompress,huffman.Decompress; huffman.Huffman
+Coding_Helper,huffman,DecompressedFileWriteHelper,handleReadFirstByte,5,1,1,67,0,,
+Coding_Helper,huffman,DecompressedFileWriteHelper,handleDecodeByByte,26,4,1,75,0,huffman.Huffman,huffman.Huffman; huffman.DecompressedFileWriteHelper
+Coding_Helper,huffman,DecompressedFileWriteHelper,doWork,14,5,1,102,0,huffman.DecompressedFileWriteHelper,huffman.DecompressedFileWriteHelper
+Coding_Helper,huffman,FileContentReader,doWork,0,1,1,7,0,,
+Coding_Helper,huffman,FileWriteHelper,FileWriteHelper,5,1,1,15,0,huffman.FileWriteHelper,huffman.FileWriteHelper
+Coding_Helper,huffman,FileWriteHelper,initFile,11,2,0,22,0,,
+Coding_Helper,huffman,FileWriteHelper,writeToFile,0,1,0,34,0,,
+Coding_Helper,huffman,FrequencyMapCreate,FrequencyMapCreate,3,1,0,12,0,,
+Coding_Helper,huffman,FrequencyMapCreate,doWork,9,2,1,17,0,,
+Coding_Helper,huffman,Huffman,huffman,14,2,1,10,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,performInorderTraversal,10,3,3,27,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,convertMapToList,7,2,1,40,0,,
+Coding_Helper,huffman,Huffman,createMapFromFile,6,1,1,49,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,canonizeHuffmanTree,6,1,1,57,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,canonizeEncodings,10,3,1,70,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,sortHuffmanTuples,22,5,1,82,0,,
+Coding_Helper,huffman,Huffman,compare,17,5,2,84,0,,
+Coding_Helper,huffman,Huffman,generateLookupCode,21,4,1,104,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,compare,9,3,2,109,0,,
+Coding_Helper,huffman,Huffman,writeEncodedFile,6,1,3,128,0,huffman.CompressedFileWriteHelper,huffman.CompressedFileWriteHelper; huffman.Huffman
+Coding_Helper,huffman,Huffman,writeDecodedFile,4,1,2,136,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,rightPadString,12,2,2,142,0,,
+Coding_Helper,huffman,Huffman,leftPadString,12,2,2,154,0,,
+Coding_Helper,huffman,Huffman,extractEncodings,5,1,1,167,0,huffman.Huffman,huffman.Huffman
+Coding_Helper,huffman,Huffman,readFromFileAndDoWork,15,2,2,174,0,huffman.FileContentReader,huffman.FileContentReader
+Coding_Helper,huffman,Huffman,readFromBinaryFileAndDoWork,15,2,2,189,0,huffman.FileContentReader,huffman.FileContentReader
+Coding_Helper,huffman,HuffmanTuple,HuffmanTuple,4,1,2,9,0,,
+Coding_Helper,huffman,HuffmanTuple,toString,3,1,0,15,0,,
+Coding_Helper,huffman,mainDecode,Decompress,8,1,1,13,0,console.Command,console.Command; huffman.mainDecode; huffman.Decompress
+Coding_Helper,huffman,mainDecode,compressFile,28,4,1,25,0,huffman.mainEncode,huffman.mainEncode; console.Command
+Coding_Helper,huffman,mainDecode,decompressFile,16,3,1,64,0,console.Command,console.Command; huffman.mainDecode
+Coding_Helper,huffman,mainDecode,checkfileExist,20,2,1,85,0,console.Command,console.Command
+Coding_Helper,huffman,mainEncode,Compress,8,1,1,20,0,huffman.mainEncode,huffman.mainEncode; huffman.Compress
+Coding_Helper,huffman,mainEncode,mainfile,28,4,1,33,0,console.Command,console.Command; huffman.mainEncode; IO.Filereader
+Coding_Helper,huffman,mainEncode,compressFile,24,3,1,67,0,console.Command,console.Command; huffman.mainEncode
+Coding_Helper,huffman,mainEncode,checkFileExist,17,2,1,105,0,console.Command,console.Command
+Coding_Helper,huffman,Node,Node,2,1,0,15,0,,
+Coding_Helper,huffman,Node,Node,4,1,1,19,0,,
+Coding_Helper,huffman,Node,Node,6,1,2,26,0,,
+Coding_Helper,huffman,Node,toString,3,1,0,34,0,,
+Coding_Helper,huffman,Node,compareTo,9,3,1,40,0,,
+Coding_Helper,IO,Filereader,fileEmpty,11,2,1,7,0,,
+Coding_Helper,IO,Filewriter,createProcessFile,9,1,3,12,0,,
+Coding_Helper,IO,ProjectReader,fileRead,25,4,2,24,0,,
+Coding_Helper,IO,ProjectReader,visitFile,19,4,2,30,0,,
+Coding_Helper,IO,ProjectReader,getFileList,14,4,3,63,0,,
+Coding_Helper,metrices,Average_LOC,totalClass,20,2,1,9,0,IO.ProjectReader,IO.ProjectReader; metrices.LineOfCode
+Coding_Helper,metrices,FileCount,classCount,13,1,1,7,0,IO.ProjectReader,IO.ProjectReader
+Coding_Helper,metrices,LineOfCode,countLines,23,5,1,10,0,,
+Coding_Helper,metrices,MethodCount,getTotalMethods,16,2,2,9,0,searching.Search,searching.Search
+Coding_Helper,searching,GrepContent,findBetweenBraces,23,4,2,10,0,,
+Coding_Helper,searching,GrepContent,getLineNumber,12,3,3,56,0,,
+Coding_Helper,searching,MethodFind,getMethod,17,3,4,12,0,searching.GrepContent,searching.GrepContent; searching.ProcessSearchFile
+Coding_Helper,searching,MethodFind,getConstructor,21,4,4,36,0,searching.GrepContent,searching.GrepContent; searching.ProcessSearchFile
+Coding_Helper,searching,ProcessSearchFile,processMethod,18,2,4,15,0,code_clone.PreProcessing,code_clone.PreProcessing; searching.ProcessSearchFile; code_clone.Porter_stemmer; IO.Filewriter
+Coding_Helper,searching,ProcessSearchFile,queryProcess,15,2,1,34,0,code_clone.PreProcessing,code_clone.PreProcessing; searching.ProcessSearchFile; code_clone.Porter_stemmer
+Coding_Helper,searching,ProcessSearchFile,breakWord,18,3,1,51,0,,
+Coding_Helper,searching,Search,ProjectRead,26,4,2,19,0,searching.MethodFind,searching.MethodFind
+Coding_Helper,searching,Search,visitFile,16,3,2,26,0,searching.MethodFind,searching.MethodFind
+Coding_Helper,searching,Search,processProject,11,2,2,61,0,searching.Search,searching.Search
+Coding_Helper,searching,Search,getProcessFilepath,7,1,1,91,0,console.Command,console.Command
+Coding_Helper,searching,Search,getProjectFile,4,1,1,99,0,searching.Search,searching.Search; IO.ProjectReader
+Coding_Helper,searching,Search,getFile,24,4,2,109,0,searching.Search,searching.Search; IO.Filereader; searching.MethodFind
+Coding_Helper,searching,Search,SearchingResult,17,1,2,146,0,searching.ProcessSearchFile,searching.ProcessSearchFile; searching.TfIdfCalculate; searching.Similarity
+Coding_Helper,searching,Similarity,getCosine,16,4,0,16,0,code_clone.CosineSimilarity,code_clone.CosineSimilarity
+Coding_Helper,searching,Similarity,getResult,11,3,0,40,0,,
+Coding_Helper,searching,TfIdfCalculate,fileRead,20,5,1,23,0,,
+Coding_Helper,searching,TfIdfCalculate,Idfcal,7,2,0,54,0,code_clone.getTfIdf,code_clone.getTfIdf
+Coding_Helper,searching,TfIdfCalculate,UniqueQueryTerms,8,3,1,66,0,,
+Coding_Helper,searching,TfIdfCalculate,ProjectTfIdfCal,22,4,0,79,0,code_clone.getTfIdf,code_clone.getTfIdf
+Coding_Helper,searching,TfIdfCalculate,queryTfIdfCal,21,3,1,108,0,code_clone.getTfIdf,code_clone.getTfIdf

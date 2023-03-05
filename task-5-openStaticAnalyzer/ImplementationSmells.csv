@@ -1,0 +1,74 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Coding_Helper,code_clone,BoxAndWhiskerChart,display,Long Statement,"The length of the statement ""boxData.add(getInputData(CosineSimilarity.similarArray.get(i))`""First_Project vs Second_Project""`CloneCheck.ProjectFileName1.get(i));"" is 133.",37
+Coding_Helper,code_clone,BoxAndWhiskerChart,display,Magic Number,The method contains a magic number: 20,37
+Coding_Helper,code_clone,BoxAndWhiskerChart,display,Magic Number,The method contains a magic number: 600,37
+Coding_Helper,code_clone,BoxAndWhiskerChart,display,Magic Number,The method contains a magic number: 600,37
+Coding_Helper,code_clone,BoxAndWhiskerChart,getPreferredSize,Magic Number,The method contains a magic number: 600,67
+Coding_Helper,code_clone,BoxAndWhiskerChart,getPreferredSize,Magic Number,The method contains a magic number: 600,67
+Coding_Helper,code_clone,CosineSimilarity,getCosinesimilarity,Long Statement,"The length of the statement ""System.out.println(CloneCheck.ProjectFileName1.get(i) + "" vs "" + CloneCheck.ProjectFileName2.get(j)+ "" ""+ getSimilar+ ""%"");"" is 123.",12
+Coding_Helper,code_clone,CosineSimilarity,getCosinesimilarity,Magic Number,The method contains a magic number: 2,12
+Coding_Helper,code_clone,CosineSimilarity,cosineSimilarity,Magic Number,The method contains a magic number: 2,36
+Coding_Helper,code_clone,CosineSimilarity,cosineSimilarity,Magic Number,The method contains a magic number: 2,36
+Coding_Helper,code_clone,CosineSimilarity,cosineSimilarity,Magic Number,The method contains a magic number: 100,36
+Coding_Helper,code_clone,Porter_stemmer,stemWord,Magic Number,The method contains a magic number: 3,8
+Coding_Helper,code_clone,Porter_stemmer,stemStep1a,Magic Number,The method contains a magic number: 2,22
+Coding_Helper,code_clone,Porter_stemmer,stemStep1a,Magic Number,The method contains a magic number: 2,22
+Coding_Helper,code_clone,Porter_stemmer,stemStep1b,Magic Number,The method contains a magic number: 2,42
+Coding_Helper,code_clone,Porter_stemmer,stemStep1b,Magic Number,The method contains a magic number: 3,42
+Coding_Helper,code_clone,Porter_stemmer,step1b2,Complex Conditional,The conditional expression lastDoubleConsonant != 0 && lastDoubleConsonant != 'l' && lastDoubleConsonant != 's' && lastDoubleConsonant != 'z' is complex.,72
+Coding_Helper,code_clone,Porter_stemmer,step1b2,Long Statement,"The length of the statement ""if (lastDoubleConsonant != 0 && lastDoubleConsonant != 'l' && lastDoubleConsonant != 's' && lastDoubleConsonant != 'z') {"" is 121.",72
+Coding_Helper,code_clone,Porter_stemmer,stemStep2,Long Statement,"The length of the statement ""String[] s1=new String[]{""ational""`""tional""`""enci""`""anci""`""izer""`""bli""`""alli""`""entli""`""eli""`""ousli""`""ization""`""ation""`""ator""`""alism""`""iveness""`""fulness""`""ousness""`""aliti""`""iviti""`""biliti""`""logi""};"" is 196.",116
+Coding_Helper,code_clone,Porter_stemmer,stemStep2,Long Statement,"The length of the statement ""String[] s2=new String[]{""ate""`""tion""`""ence""`""ance""`""ize""`""ble""`""al""`""ent""`""e""`""ous""`""ize""`""ate""`""ate""`""al""`""ive""`""ful""`""ous""`""al""`""ive""`""ble""`""log""};"" is 150.",116
+Coding_Helper,code_clone,Porter_stemmer,stemStep4,Long Statement,"The length of the statement ""String[] suffixes=new String[]{""al""`""ance""`""ence""`""er""`""ic""`""able""`""ible""`""ant""`""ement""`""ment""`""ent""`""ion""`""ou""`""ism""`""ate""`""iti""`""ous""`""ive""`""ize""};"" is 149.",211
+Coding_Helper,code_clone,Porter_stemmer,getLastDoubleConsonant,Magic Number,The method contains a magic number: 2,282
+Coding_Helper,code_clone,Porter_stemmer,getLastDoubleConsonant,Magic Number,The method contains a magic number: 2,282
+Coding_Helper,code_clone,Porter_stemmer,isStarO,Complex Conditional,The conditional expression lastLetter == 'w' || lastLetter == 'x' || lastLetter == 'y' is complex.,294
+Coding_Helper,code_clone,Porter_stemmer,isStarO,Long Statement,"The length of the statement ""return getLetterType(secondToLastLetter`lastLetter) == 'c' && getLetterType(thirdToLastLetter`secondToLastLetter) == 'v' && getLetterType(fourthToLastLetter`thirdToLastLetter) == 'c';"" is 183.",294
+Coding_Helper,code_clone,Porter_stemmer,isStarO,Magic Number,The method contains a magic number: 3,294
+Coding_Helper,code_clone,Porter_stemmer,isStarO,Magic Number,The method contains a magic number: 2,294
+Coding_Helper,code_clone,Porter_stemmer,isStarO,Magic Number,The method contains a magic number: 3,294
+Coding_Helper,code_clone,Porter_stemmer,isStarO,Magic Number,The method contains a magic number: 3,294
+Coding_Helper,code_clone,Porter_stemmer,isStarO,Magic Number,The method contains a magic number: 4,294
+Coding_Helper,code_clone,Porter_stemmer,getM,Magic Number,The method contains a magic number: 2,321
+Coding_Helper,code_clone,Porter_stemmer,getM,Magic Number,The method contains a magic number: 2,321
+Coding_Helper,code_clone,Porter_stemmer,getM,Magic Number,The method contains a magic number: 2,321
+Coding_Helper,code_clone,Porter_stemmer,getLetterType,Complex Method,Cyclomatic complexity of the method is 8,327
+Coding_Helper,console,Command,command,Complex Method,Cyclomatic complexity of the method is 24,34
+Coding_Helper,console,Command,command,Long Statement,"The length of the statement ""System.out.println(""\t4.Matrices\n\t\tFile Count-->fc\n\t\tMethod Count-->mc\n\t\tLine of Code-->loc\n\t\tAverage line of Code-->a_loc"");"" is 137.",34
+Coding_Helper,console,Command,command,Long Statement,"The length of the statement ""System.out.println(""\t4.Metrics\n\t\tJava File Count-->fc\n\t\tMethod Count-->mc\n\t\tLine of Code-->loc\n\t\tAverage LOC of a class"");"" is 135.",34
+Coding_Helper,console,Command,command,Magic Number,The method contains a magic number: 3,34
+Coding_Helper,console,Command,command,Magic Number,The method contains a magic number: 2,34
+Coding_Helper,console,Command,getMethod,Complex Conditional,The conditional expression Files.exists(filepath) && Files.isDirectory(filepath) && !name.isEmpty() is complex.,153
+Coding_Helper,console,Command,getMethod,Complex Conditional,The conditional expression Files.exists(filepath) && !Files.isDirectory(filepath) && !name.isEmpty() is complex.,153
+Coding_Helper,console,Command,getTotalClass,Complex Conditional,The conditional expression Files.exists(p) && Files.isDirectory(p) && !projectName.isEmpty() is complex.,206
+Coding_Helper,console,Command,average_Line_of_Project,Complex Conditional,The conditional expression Files.exists(p) && Files.isDirectory(p) && !projectName.isEmpty() is complex.,227
+Coding_Helper,console,Command,Search,Complex Conditional,The conditional expression (projectName.isEmpty() && !query.isEmpty()) || (query.isEmpty() && !projectName.isEmpty()) is complex.,249
+Coding_Helper,console,Command,projectPath,Complex Conditional,The conditional expression projectExist(Firstproject) && projectExist(SecondProject) && (!(Firstproject.isEmpty() | SecondProject.isEmpty())) is complex.,310
+Coding_Helper,console,Command,projectPath,Empty catch clause,The method has an empty catch block.,310
+Coding_Helper,console,Command,projectPath,Long Statement,"The length of the statement ""if (projectExist(Firstproject) && projectExist(SecondProject) && (!(Firstproject.isEmpty() | SecondProject.isEmpty()))) {"" is 121.",310
+Coding_Helper,console,Command,projectPath,Magic Number,The method contains a magic number: 2,310
+Coding_Helper,console,Command,backDirectory,Magic Number,The method contains a magic number: 3,378
+Coding_Helper,console,Command,backDirectory,Magic Number,The method contains a magic number: 3,378
+Coding_Helper,console,Command,checkFileExist,Magic Number,The method contains a magic number: 3,413
+Coding_Helper,huffman,CompressedFileWriteHelper,writeBeginningOfFile,Magic Number,The method contains a magic number: 2,29
+Coding_Helper,huffman,CompressedFileWriteHelper,writeBeginningOfFile,Magic Number,The method contains a magic number: 2,29
+Coding_Helper,huffman,CompressedFileWriteHelper,writeBeginningOfFile,Magic Number,The method contains a magic number: 16,29
+Coding_Helper,huffman,CompressedFileWriteHelper,writeEndOfFile,Magic Number,The method contains a magic number: 8,39
+Coding_Helper,huffman,CompressedFileWriteHelper,writeEndOfFile,Magic Number,The method contains a magic number: 8,39
+Coding_Helper,huffman,CompressedFileWriteHelper,writeToFile,Magic Number,The method contains a magic number: 2,48
+Coding_Helper,huffman,Huffman,canonizeEncodings,Long Statement,"The length of the statement ""currentTuple.representation=Huffman.rightPadString(Integer.toBinaryString(currentNum)`currentTuple.representation.length());"" is 124.",70
+Coding_Helper,huffman,Huffman,generateLookupCode,Magic Number,The method contains a magic number: 2,104
+Coding_Helper,huffman,Huffman,generateLookupCode,Magic Number,The method contains a magic number: 2,104
+Coding_Helper,huffman,Huffman,generateLookupCode,Magic Number,The method contains a magic number: 2,104
+Coding_Helper,huffman,mainEncode,mainfile,Empty catch clause,The method has an empty catch block.,33
+Coding_Helper,huffman,mainEncode,compressFile,Empty catch clause,The method has an empty catch block.,67
+Coding_Helper,metrices,Average_LOC,totalClass,Magic Number,The method contains a magic number: 2,9
+Coding_Helper,metrices,LineOfCode,countLines,Magic Number,The method contains a magic number: 1024,10
+Coding_Helper,metrices,MethodCount,getTotalMethods,Empty catch clause,The method has an empty catch block.,9
+Coding_Helper,searching,GrepContent,findBetweenBraces,Empty catch clause,The method has an empty catch block.,10
+Coding_Helper,searching,MethodFind,getMethod,Long Statement,"The length of the statement ""String pattern=""(public|void|protected|private|static|final|public static|private static|protected static|public final|private final|protective final)+\\s*(\\<.*\\>)*\\s*[a-zA-Z]*\\s*\\b([_$a-zA-Z1-9]+)\\b\\s*\\(.*\\)\\s*[^;].*?$"";"" is 231.",12
+Coding_Helper,searching,MethodFind,getMethod,Magic Number,The method contains a magic number: 3,12
+Coding_Helper,searching,MethodFind,getConstructor,Long Statement,"The length of the statement ""Pattern constructorFind=Pattern.compile(""(\\b"" + classMatcher.group(1) + ""\\b)\\s*\\(.*\\)\\s*[^;].*$""`Pattern.MULTILINE);"" is 122.",36
+Coding_Helper,searching,Similarity,getCosine,Long Statement,"The length of the statement ""similarity=new CosineSimilarity().cosineSimilarity(TfIdfCalculate.tfidfvectorProject.get(i)`TfIdfCalculate.queryTfIdfVector.get(j));"" is 132.",16
+Coding_Helper,searching,Similarity,getCosine,Magic Number,The method contains a magic number: 2,16
+Coding_Helper,searching,Similarity,getResult,Long Statement,"The length of the statement ""SortDescending.entrySet().stream().sorted(HashMap.Entry.comparingByValue(Comparator.reverseOrder())).forEachOrdered(x -> reverseSorted.put(x.getKey()`x.getValue()));"" is 165.",40
